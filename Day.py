@@ -7,8 +7,11 @@ class Day():
         self.lines = [s.replace("\n", "") for s in file.readlines()]
         file.close()
         
-    def run():
-        pass
-    
-    @abstractmethod 
-    def show(self): raise NotImplementedError
+    def run(self, part): 
+        if part == 1:
+            return self.partone()
+        else:
+            return self.parttwo()
+        
+    def partone(self): raise NotImplementedError
+    def parttwo(self): raise NotImplementedError

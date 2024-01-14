@@ -46,7 +46,3 @@ class DayTwo(Day):
             total += subtotal
         
         return total
-        
-    def run(self, part):
-        if part == 1: return self.partone()
-        else: return self.parttwo()

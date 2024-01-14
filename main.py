@@ -1,5 +1,6 @@
-from day1 import DayOne
-from day2 import DayTwo
+from DayOne import DayOne
+from DayTwo import DayTwo
+from DayThree import DayThree
 
-day = DayTwo()
+day = DayThree()
 print(day.run(2))

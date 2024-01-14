@@ -37,10 +37,3 @@ class DayOne(Day):
         
         total = subtotals[0] + subtotals[1] + subtotals[2]
         return total
-        
-    def run(self, part):
-        if part == 1:
-            return self.partone()
-        else:
-            return self.parttwo()
-        
